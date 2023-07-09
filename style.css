@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    
+}
+
+li{
+
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+}
+button{
+    background-color: aqua;
+    padding: 4px 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 700;
+    width: fit-content;
+
+}
+button:hover{
+background-color: blueviolet;
+color: white;
+border: 1px solid white;
+
+}
+header{
+    padding: 15px 0;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+nav.logo{
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+    
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+.search{
+    display: flex;
+    gap:7px;
+}
+input {
+    padding: 4px 10px;
+  }
+  .hero{
+    display: flex;
+    align-items: center;
+  }
+  .hero-left{
+    width: 60%;
+    padding: 0% 8%;
+  }
+  .hero-left h1{
+    font-weight:800 ;
+    font-size: 40px;
+    margin-bottom: 16px;
+    
+  }
+  .hero-left h1 span{
+    color: aquamarine;
+    font-weight: 900;
+    background-color: blueviolet;
+    padding: 0 15px;
+  }
+  .hero-left p{
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .hero-left span{
+    font-size: 25px;
+    font-weight: 700;
+    color: aquamarine;
+  }
+  .hero-right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .hero-right btn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .hero-right img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+  footer {
+    font-weight: 600;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+  }
+  
+  footer ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
